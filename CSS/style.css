@@ -1,7 +1,12 @@
 body {
+    margin: 0;
+    padding: 0;
     background-color: white;
-    margin: 0 auto;
     font-family: "Roboto", sans-serif;
+}
+
+.container {
+    margin: 0 auto;
     width: 1182px;
     max-width: 100%;
 }
@@ -78,11 +83,16 @@ body {
     display: flex;
 }
 
+li {
+    display: inline;
+    color: #ffffff;
+    list-style-type: none;
+}
+
 .footer-text-left {
     line-height: 75px;
     margin: 0;
     color: #FFFFFF;
-    margin-left: 28px;
 }
 
 .footer-text-right {

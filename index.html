@@ -6,7 +6,14 @@
     <link rel="stylesheet" href="CSS/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
+<style>
+    cc:before {
+        content: " | ";
+        color: white;
+    }
+</style>
 <body>
+    <div class="container">
     <header class="header">
         <img class="image-png" src="img/logo.png" alt=""/>
         <p class="text-title">Суханов И.Д.</p>
@@ -22,9 +29,15 @@
         </div>
     </main>
     <footer class="footer">
-        <p class="footer-text-left">Главная | Курсы | О нас | Контакты</p>
+        <ul class="footer-text-left">
+            <li><a href="">Главная</a></li>
+            <li><a href=""><cc>Курсы</cc></a></li>
+            <li><a href=""><cc>О нас</cc></a></li>
+            <li><a href=""><cc>Контакты</cc></a></li>
+        </ul>
         <p class="footer-text-right">© 2021, Институт космических и информационных технологий СФУ</p>
     </footer>
+    </div>
 </body>
 <script src="JS/app.js"></script>
 </html>
